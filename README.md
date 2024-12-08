@@ -1,1 +1,1 @@
-# notion-mddoc-rename
+# notion-mddoc-rename_resizeimgs
