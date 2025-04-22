@@ -15,3 +15,6 @@
 - "rename_resizeimgs.py"を実行
 - "rename_resizeimgs.py"を削除
 ```
+
+## TODO
+- [ ] 画像サイズ動的に変更
