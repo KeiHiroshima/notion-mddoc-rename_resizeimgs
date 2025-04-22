@@ -51,17 +51,15 @@ def main(folder_name=None):
 
     for idx, line in enumerate(lines):
         if "![" in line:
+            spaces = line.split("!")[0]
             img_name = line.split("/")[-1].split(")")[0]
 
-            img_ratio = 75
+            img_ratio = 50
+
+            breakpoint()
+
             lines[idx] = (
-                "<img src='./"
-                + dir_name_new
-                + "/"
-                + img_name
-                + "' width='"
-                + str(img_ratio)
-                + "%'>"
+                f"{spaces}<img src='./{dir_name_new}/{img_name}' width='{str(img_ratio)}%'> <br>"
             )
 
     # write to doc_name_new
