@@ -56,8 +56,6 @@ def main(folder_name=None):
 
             img_ratio = 50
 
-            breakpoint()
-
             lines[idx] = (
                 f"{spaces}<img src='./{dir_name_new}/{img_name}' width='{str(img_ratio)}%'> <br>"
             )
